@@ -1,3 +1,6 @@
+#ifndef AICE_PRIMITEVE_TYPEDEF
+#define AICE_PRIMITEVE_TYPEDEF
+
 #include <cstdint>
 
 using s32 = int_fast32_t;
@@ -9,3 +12,5 @@ using u64 = uint_fast64_t;
 using f32 = float;
 using f64 = double;
 using f128 = long double;
+
+#endif
