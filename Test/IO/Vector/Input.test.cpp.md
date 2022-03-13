@@ -4,7 +4,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: Src/IO/Vector.hpp
     title: Src/IO/Vector.hpp
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Src/Primitive/TypeDef.h
     title: Src/Primitive/TypeDef.h
   _extendedRequiredBy: []

@@ -1,20 +1,20 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Src/Integer/Util.hpp
     title: Src/Integer/Util.hpp
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Src/Primitive/TypeDef.h
     title: Src/Primitive/TypeDef.h
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Test/Integer/QuotientRange/abc230_e.test.cpp
     title: Test/Integer/QuotientRange/abc230_e.test.cpp
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -56,7 +56,7 @@ data:
   path: Src/Integer/QuotientRange.hpp
   requiredBy: []
   timestamp: '2022-03-13 06:35:04+00:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Integer/QuotientRange/abc230_e.test.cpp
 documentation_of: Src/Integer/QuotientRange.hpp

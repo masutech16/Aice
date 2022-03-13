@@ -1,10 +1,10 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Src/Integer/Util.hpp
     title: Src/Integer/Util.hpp
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Src/Primitive/TypeDef.h
     title: Src/Primitive/TypeDef.h
   _extendedRequiredBy: []

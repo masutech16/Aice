@@ -1,23 +1,23 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Src/Primitive/TypeDef.h
     title: Src/Primitive/TypeDef.h
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Src/Integer/QuotientRange.hpp
     title: Src/Integer/QuotientRange.hpp
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Test/Integer/QuotientRange/abc230_e.test.cpp
     title: Test/Integer/QuotientRange/abc230_e.test.cpp
   - icon: ':heavy_check_mark:'
     path: Test/Integer/Util/sqrt.test.cpp
     title: Test/Integer/Util/sqrt.test.cpp
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -51,7 +51,7 @@ data:
   requiredBy:
   - Src/Integer/QuotientRange.hpp
   timestamp: '2022-03-13 05:16:59+00:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Integer/QuotientRange/abc230_e.test.cpp
   - Test/Integer/Util/sqrt.test.cpp

@@ -1,20 +1,20 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Src/Integer/QuotientRange.hpp
     title: Src/Integer/QuotientRange.hpp
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Src/Integer/Util.hpp
     title: Src/Integer/Util.hpp
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Src/Primitive/TypeDef.h
     title: Src/Primitive/TypeDef.h
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://atcoder.jp/contests/abc230/tasks/abc230_e
@@ -42,7 +42,7 @@ data:
   path: Test/Integer/QuotientRange/abc230_e.test.cpp
   requiredBy: []
   timestamp: '2022-03-13 06:35:04+00:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: Test/Integer/QuotientRange/abc230_e.test.cpp
 layout: document

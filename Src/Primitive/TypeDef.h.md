@@ -2,25 +2,25 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Src/Integer/QuotientRange.hpp
     title: Src/Integer/QuotientRange.hpp
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Src/Integer/Util.hpp
     title: Src/Integer/Util.hpp
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: Test/IO/Vector/Input.test.cpp
     title: Test/IO/Vector/Input.test.cpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Test/Integer/QuotientRange/abc230_e.test.cpp
     title: Test/Integer/QuotientRange/abc230_e.test.cpp
   - icon: ':heavy_check_mark:'
     path: Test/Integer/Util/sqrt.test.cpp
     title: Test/Integer/Util/sqrt.test.cpp
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: h
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: '#line 1 "Src/Primitive/TypeDef.h"
@@ -85,7 +85,7 @@ data:
   - Src/Integer/Util.hpp
   - Src/Integer/QuotientRange.hpp
   timestamp: '2022-03-04 14:32:59+00:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/IO/Vector/Input.test.cpp
   - Test/Integer/QuotientRange/abc230_e.test.cpp
