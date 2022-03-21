@@ -5,6 +5,9 @@ data:
     path: Src/Primitive/TypeDef.h
     title: Src/Primitive/TypeDef.h
   _extendedRequiredBy:
+  - icon: ':warning:'
+    path: Src/Algorithm/Mo.hpp
+    title: Src/Algorithm/Mo.hpp
   - icon: ':heavy_check_mark:'
     path: Src/Integer/QuotientRange.hpp
     title: Src/Integer/QuotientRange.hpp
@@ -49,6 +52,7 @@ data:
   isVerificationFile: false
   path: Src/Integer/Util.hpp
   requiredBy:
+  - Src/Algorithm/Mo.hpp
   - Src/Integer/QuotientRange.hpp
   timestamp: '2022-03-13 05:16:59+00:00'
   verificationStatus: LIBRARY_ALL_AC

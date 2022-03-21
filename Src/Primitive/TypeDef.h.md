@@ -2,12 +2,18 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
+  - icon: ':warning:'
+    path: Src/Algorithm/Mo.hpp
+    title: Src/Algorithm/Mo.hpp
   - icon: ':heavy_check_mark:'
     path: Src/Integer/QuotientRange.hpp
     title: Src/Integer/QuotientRange.hpp
   - icon: ':heavy_check_mark:'
     path: Src/Integer/Util.hpp
     title: Src/Integer/Util.hpp
+  - icon: ':heavy_check_mark:'
+    path: Src/Tree/FenwickTree.hpp
+    title: Src/Tree/FenwickTree.hpp
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: Test/IO/Vector/Input.test.cpp
@@ -18,6 +24,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/Integer/Util/sqrt.test.cpp
     title: Test/Integer/Util/sqrt.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: Test/Tree/FenwickTree/aoj_dsl2.test.cpp
+    title: Test/Tree/FenwickTree/aoj_dsl2.test.cpp
   _isVerificationFailed: false
   _pathExtension: h
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -82,11 +91,14 @@ data:
   isVerificationFile: false
   path: Src/Primitive/TypeDef.h
   requiredBy:
+  - Src/Tree/FenwickTree.hpp
+  - Src/Algorithm/Mo.hpp
   - Src/Integer/Util.hpp
   - Src/Integer/QuotientRange.hpp
   timestamp: '2022-03-04 14:32:59+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - Test/Tree/FenwickTree/aoj_dsl2.test.cpp
   - Test/IO/Vector/Input.test.cpp
   - Test/Integer/QuotientRange/abc230_e.test.cpp
   - Test/Integer/Util/sqrt.test.cpp
